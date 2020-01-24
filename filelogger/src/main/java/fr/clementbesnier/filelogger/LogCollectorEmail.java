@@ -1,7 +1,5 @@
 package fr.clementbesnier.filelogger;
 
-import java.io.File;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -9,9 +7,11 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Build;
-import androidx.core.content.FileProvider;
+import android.support.v4.content.FileProvider;
 import android.util.Log;
 import android.widget.Toast;
+
+import java.io.File;
 
 /**
  * Received for the collected logs.
